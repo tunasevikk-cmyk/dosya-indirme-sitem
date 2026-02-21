@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head><title>Test</title></head>
+<head>
+    <title>Dosya Yükleme</title>
+</head>
 <body>
-<h1>Render çalışıyor!</h1>
+    <h1>Dosya Yükle</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" multiple>
+        <input type="submit" value="Yükle">
+    </form>
 </body>
 </html>
